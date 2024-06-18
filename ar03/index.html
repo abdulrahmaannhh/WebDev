@@ -4,27 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img width="230" height="230" src="image.png" alt="train image">
 
+    <br>
+
     <table>
-        <tr>
+        <caption>Employee Details</caption>
+
+        <thead>
+          <tr>
             <th>Name</th>
             <th>Designation</th>
             <th>favorite language</th>
-        </tr>
+          </tr>
+        </thead>
+
+        <tbody>
         <tr>
             <td>Abdul Rahman</td>
-            <td>programmer
-            </td>
+            <td>programmer</td>
             <td>JavaScript</td>
         </tr>
 
         <tr>
             <td colspan="2">AR</td>
-            <td>programmer</td>
+            <td rowspan="2">java</td>
         </tr>
+
+        <tr>
+            <td colspan="2">cr</td>
+        </tr>
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="2">ab</td>
+            <td rowspan="2">css</td>    
+        </tr>
+<tr>
+    <td colspan="2">abdul</td>
+</tr>
+    </tfoot>
 
     </table>
 

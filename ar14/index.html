@@ -14,14 +14,26 @@
         .red{
             background-color: red;
         }
+
+        /* Id Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selectors */
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div class="red">
         I am a div
+        <p>I am pera inside div</p>
     </div>
 
-    <div>
+    <div id="green">
         I am another div
     </div>
 </body>

@@ -16,6 +16,7 @@
         .box{
             box-sizing: border-box;
             border: 2px solid black;
+            width: 80;
             width: 80vw;
             background-color: aquamarine;
             margin: auto;
@@ -24,21 +25,34 @@
         .container{
             box-sizing: border-box;
             border: 2px solid black;
+            /* width: 2048px; */
+
             width: 80vw;
+            /* height: 80vw; */
+            min-height: 80vh;
             background-color: aquamarine;
             margin: 23px auto;
             font-size: 18px;
         }
 
-        .container p{
+        .container div{
             font-size: 2rem;
+            width: 50%;
+            border: 2px solid red;
+        }
+
+        .container div div{
+            border: 2px solid blue;
+            width: 50%;
         }
 
         .mycont{
-               background-color: red;
-               color: yellow;
+               border: 2px solid black;
+               box-sizing: border-box;
+               margin: 23px auto;
+               color: solid black;
                font-size: 22px;
-               width: 100vmin;
+               width: 80vw;
         }
     </style>
 </head>
@@ -50,9 +64,13 @@
     </div>
     
     <div class="container">
-    <p>
+    <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet non deserunt enim veritatis, temporibus, hic repudiandae delectus repellat ut quisquam numquam esse iste dolorum rerum inventore harum magnam omnis alias facere! Doloribus voluptate aspernatur totam commodi dolores suscipit quas quidem dolor, deserunt quia sequi, impedit doloremque perspiciatis sed amet itaque, vero earum pariatur blanditiis quo?
-    </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quia animi corporis maiores quo nulla quisquam repudiandae, eligendi totam deleniti dolorem debitis id! Ea, fuga id reiciendis iusto, facere officiis nobis harum, sed enim sunt expedita? Asperiores vel quae repudiandae, voluptatem eius maiores dolor fugit dignissimos corporis ducimus at debitis corrupti nobis quod explicabo voluptates saepe dolorum est architecto unde, necessitatibus, ipsa minima in odio! Perspiciatis sit impedit quam minus? Sed non voluptates quo enim ab animi debitis impedit sit explicabo! Vero animi tempore iure iste rem cum necessitatibus incidunt nam autem sapiente! Sit nemo ipsum fuga. Eius dignissimos qui beatae amet nostrum veniam fugiat, quaerat cupiditate maxime sed modi sint reiciendis quia nobis? Odio sunt quaerat natus rerum consequatur, iure minima a voluptatem sit velit ut maxime perspiciatis quasi iste, excepturi veniam blanditiis nam unde eius illum voluptas. Non nisi esse autem modi aut odit ullam tenetur deserunt.
+
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos voluptate harum suscipit. Obcaecati quas sint delectus omnis optio non praesentium aliquid repellat voluptatibus.
+        </div>
+    </div>
     </div>
 
     <div class="mycont">

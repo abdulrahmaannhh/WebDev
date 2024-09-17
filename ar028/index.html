@@ -9,28 +9,75 @@
         .box:nth-child(1) {
             background-color: red;
         }
-       .box:nth-child(2):first-line{
-        color: blue;
-       }
-       .boxes *{
-        color: rgb(186, 101, 207);
-        border: 2px solid rgb(136, 100, 100);
-       }
 
-p, a, .box, [data-color="primary"]{
-        padding-top: 45px;
-        margin-top: 45px;
-       }
+        .box:nth-child(2):first-line {
+            color: blue;
+        }
+
+        .boxes * {
+            color: rgb(186, 101, 207);
+            border: 2px solid rgb(136, 100, 100);
+        }
+
+        p,
+        a,
+        .box,
+        [data-color="primary"]{
+            padding-top: 5px;
+            margin-top: 2px;
+        }
+
+        .box:nth-child(even){
+            background-color: yellow;
+        }
+
+        .box:nth-last-child(1){
+            background-color: red;
+        }
+
+        .boxes::before{
+            content: "Abdul Rahman is good";
+            color: red;
+            background-color: yellow;
+        }
+
+        .boxes::After{
+            content: "Abdul Rahman";
+            color: blue;
+            background-color: grey;
+        }
+
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+
+        .box::first-letter{
+            color: purple;
+            font-size: 20px;
+        }
+
+        input::placeholder{
+            color: rgb(85, 85, 111);
+            font-size: 15px;
+            
+        }
+
+
     </style>
 </head>
 
 <body>
     <div class="boxes">
 
+        <div data-color="primary" class="box">Hey i am a box</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam labore exercitationem ipsa
+            qui? Corrupti sunt quis iste obcaecati! Dolor minima cumque atque maxime sapiente fugiat est voluptatibus
+            esse, dignissimos dicta nisi. Et ea quod, blanditiis nemo explicabo assumenda eligendi repellat. Numquam
+            maxime quam quae quos? Natus molestiae ducimus nobis nesciunt commodi libero eaque esse, incidunt facere,
+            eum, odit animi.</div>
         <div class="box">Hey i am a box</div>
-        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam labore exercitationem ipsa qui? Corrupti sunt quis iste obcaecati! Dolor minima cumque atque maxime sapiente fugiat est voluptatibus esse, dignissimos dicta nisi. Et ea quod, blanditiis nemo explicabo assumenda eligendi repellat. Numquam maxime quam quae quos? Natus molestiae ducimus nobis nesciunt commodi libero eaque esse, incidunt facere, eum, odit animi.</div>
-        <div class="box">Hey i am a box</div>
-
+<input type="text" placeholder="Type your name here"
     </div>
 </body>
 

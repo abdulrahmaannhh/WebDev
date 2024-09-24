@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            border: 2px solid yellow;
+            display: grid;
+            grid-template-columns: [pahla] 120px [dusra] 100px ;
+            grid-template-rows: 100px 100px 100px 100px 100px;
+
+        }
+
+        .item {
+            border: 2px solid black;
+            /* height: 55px;
+            width: 55px; */
+        }
+
+        .item-4{
+            grid-row: 3/7;
+            grid-column: 1/4;
+            /* grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 3; */
+        }
+
+        .item-1{
+            grid-row: 2/7;
+            grid-column: 1/2;            
+        }
+
+        .item-2{
+            grid-row: 1/7;
+            grid-column: 1/4;            
+        }
+
+        .item-3{
+            grid-row: 2/7;
+            grid-column: 1/4;            
+        }
+
+        .item-5{
+            grid-row: 4/7;
+            grid-column: 1/4;            
+        }
+
+        .item-6{
+            grid-row: 5/6;
+            grid-column: 1/4;            
+        }
+
+        .item-7{
+            grid-row: 1/6;
+            grid-column: 1/2;            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> 
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+    </div>
+</body>
+
+</html>

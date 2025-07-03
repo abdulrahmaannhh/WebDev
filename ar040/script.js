@@ -12,3 +12,7 @@ else {
     console.log("You answered no.");
 }
 console.log("You entered: " + a);
+  
+document.title = "JavaScript Example";
+ 
+document.body.style.backgroundColor = "lightblue";

@@ -1,0 +1,13 @@
+// console.log("Hey there! This is a test file for the ar044 module.");
+// console.log("Hey are you sure this is the right file?");
+// console.log("Hey AR your code is not working properly, please fix it.");
+// console.log("Hey AR, I think you need to check the logic in your code.");
+
+function nice(name) {
+    console.log("Hey "+name+" This is a test file for the ar044 module.")
+    console.log("Hey "+name+" are you sure this is the right file?")
+    console.log("Hey "+name+" your code is not working properly, please fix it.")
+    console.log("Hey "+name+" I think you need to check the logic in your code.")
+}
+
+nice("AR");
